@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokhara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PLACES</a></li>
+                    <li><a href="">FOOD AND<br>MOUNTAINS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>About Pokhara</h1>
+        </div>
+        
+  
+
+    </section>
+    
+    <!---blog content-->
+
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/pokhara.jpeg" alt="">
+                <h2>About Pokhara</h2>
+                <p>
+                    Pokhara, the second-largest city in Nepal, is a picturesque destination nestled in the foothills of the Himalayas. Known for its natural beauty, it serves as the gateway to the Annapurna mountain range, attracting trekkers and adventurers from around the world. The city’s charm lies in its tranquil lakes, lush green valleys, and stunning views of snow-capped peaks, including Machapuchare and Annapurna.
+                </p>
+            </br>
+                <p>
+                    Pokhara also boasts a rich cultural heritage, with numerous temples, stupas, and a blend of local traditions. The World Peace Pagoda, perched on a hill, provides panoramic views of the city, lake, and surrounding mountains. Its peaceful atmosphere complements Pokhara’s reputation as a place of relaxation and spiritual retreat.  
+                </p>
+                <br>
+                <p>
+                    Whether for adventure, relaxation, or cultural exploration, Pokhara stands as a must-visit destination, blending natural beauty and a sense of peace with the vibrancy of local life.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>Culture</span>
+                </div>
+                <div>
+                    <span>Nature</span>
+                </div>
+                <div>
+                    <span>Adventure</span>
+                </div>
+                <div>
+                    <span>Food</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+
+
+    
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is dedicated to showcasing the beauty of Pokhara, its culture, and the serene landscapes that attract visitors from all over the world. Follow us on social media to stay updated.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made by Manashi Ramdam </p>
+</section>
+
+
+
+
+
+
+<!--JavaScript for toggle menu-->
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>

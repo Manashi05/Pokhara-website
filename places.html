@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokhara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="places.html">PLACES</a></li>
+                    <li><a href="food.html">FOOD AND<br>MOUNTAINS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+    <div class="text-box">
+        <h1>Places in Pokhara</h1>
+    </div>  
+
+    </section>
+    
+    <!---places content-->
+
+    <section class="place">
+        <h1>Places You Must Visit In Pokhara</h1>
+        <div class="row">
+            <div class="place-col">
+                <img src="images/phewa.jpg" alt="phewa lake">
+                <h1>Phewa Lake</h1>
+                <p>Phewa Lake, located in Pokhara, is a tranquil freshwater lake surrounded by lush hills and offering stunning reflections of the Annapurna and Machapuchare mountain peaks. It is a popular destination for boating, lakeside relaxation, and visiting the Tal Barahi Temple situated on an island in the middle of the lake.</p>    
+                <a href="" class="hero-btn red-btn">Explore More</a>
+            </div>
+
+            <div class="place-col">
+                <img src="images/begnas.jpeg" alt="begnas lake">
+                <h1>Begnas Lake</h1>
+                <p>Begnas Lake, located in Pokhara, is a tranquil freshwater lake surrounded by lush hills and offers a peaceful escape from the city's bustle. Known for its serene beauty, it's a popular spot for boating, fishing, and enjoying stunning views of the Annapurna and Manaslu mountain ranges.</p>
+                <a href="" class="hero-btn red-btn">Explore More</a>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="place-col">
+                <img src="images/devis-fall.jpg" alt="devis fall">
+                <h1>Devi's Fall</h1>
+                <p>Devi's Fall, also known as Patale Chhango, is a stunning waterfall in Pokhara where the Pardi Khola river disappears into an underground tunnel. It's a popular tourist attraction with a mysterious origin, named after a tragic accident in which a Swiss woman named Devi drowned in the fall.</p>
+                <a href="" class="hero-btn red-btn">Explore More</a>
+            </div>
+
+            <div class="place-col">
+                <img src="images/sarangkot.jpeg" alt="sarangkot">
+                <h1>Sarangkot</h1>
+                <p>Sarangkot, located near Pokhara, is a popular hilltop destination offering breathtaking sunrise views over the Annapurna and Dhaulagiri mountain ranges. It is also renowned for its paragliding opportunities, providing a thrilling aerial perspective of the city and surrounding landscapes.</p>
+                <a href="" class="hero-btn red-btn">Explore More</a>
+            </div>
+        </div>
+
+
+    </section>
+    
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is dedicated to showcasing the beauty of Pokhara, its culture, and the serene landscapes that attract visitors from all over the world. Follow us on social media to stay updated.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made by Manashi Ramdam </p>
+</section>
+
+
+
+
+
+
+<!--JavaScript for toggle menu-->
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokhara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="places.html">PLACES</a></li>
+                    <li><a href="food.html">FOOD AND<br>MOUNTAINS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+
+   
+        <h1 style="font-size: 50px;">Foods And Mountains in Pokhara</h1>
+  
+
+    </section>
+    
+    <!---food content-->
+
+    <section class="food">
+        <h1>Foods to try</h1>
+
+        <div class="row">
+            <div class="food-col">
+                <img src="images/Momo_nepal.jpg">
+                <div class="layer">
+                    <h3>MoMo</h3>
+                </div>
+                
+                <p>MOMO</br>Nepalese momo is a popular dumpling dish, typically filled with spiced meat or vegetables and served with a tangy dipping sauce. It is a staple street food in Nepal, enjoyed for its flavorful, juicy fillings and soft dough wrapping.</p>
+                
+            </div>
+
+            <div class="food-col">
+                <img src="images/chowmein.jpg">
+                <div class="layer">
+                    <h3>Chowmein</h3>
+                </div>
+                
+                <p>
+                    CHOWMEIN</BR>Nepalese chowmein is a popular street food, consisting of stir-fried noodles mixed with vegetables, soy sauce, and a variety of seasonings. Often spiced with local flavors, it reflects a fusion of Chinese cooking techniques with Nepali ingredients.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="food-col">
+                <img src="images/pizza.jpg">
+                <div class="layer">
+                    <h3>Pizza</h3>
+                </div>
+                <p>
+                    PIZZA</br>Pizza is a savory dish made with a base of dough, topped with ingredients like cheese, tomato sauce, and various meats or vegetables, then baked to perfection. Originating in Italy, it has become a global favorite, with countless variations to suit different tastes.
+                </p>
+            </div>
+
+            <div class="food-col">
+                <img src="images/burger.jpeg">
+                <div class="layer">
+                    <h3>Burger</h3>
+                    
+                 </div>
+                 <p>
+                    BURGER</br>A burger is a popular sandwich consisting of a cooked beef patty, typically served in a sliced bun with toppings like lettuce, tomato, and cheese. It is a favorite fast food item worldwide, offering a wide variety of flavors and styles.
+                </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="mountain">
+        <h1>Mountains</h1>
+
+        <div class="row">
+            <div class="mount-col">
+                <img src="images/macchapuchre.jpeg">
+                
+                    <h3>Mt. Macchapuchre</h3>
+                    <p>Mount Machapuchare, often called the "Fish Tail" mountain due to its unique twin-peaked shape, is a sacred and unclimbed peak in the Annapurna range near Pokhara, Nepal. Revered for its striking beauty, it is considered holy by locals, and climbing to its summit is forbidden out of respect for its spiritual significance.</p>
+    
+            </div>
+
+            <div class="mount-col">
+                <img src="images/annapurna.jpg">
+                
+                    <h3>Mt. Annapurna</h3>
+                    <p>Mount Annapurna, part of the Annapurna massif, is one of the tallest peaks in the Himalayas, located near Pokhara, Nepal. Renowned for its challenging trekking routes and stunning scenery, it attracts adventurers and nature lovers from around the world.</p>
+            
+            </div>
+        </div>
+
+
+    </section>
+    
+
+    <!--Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is dedicated to showcasing the beauty of Pokhara, its culture, and the serene landscapes that attract visitors from all over the world. Follow us on social media to stay updated.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made by Manashi Ramdam </p>
+</section>
+
+
+
+
+
+
+<!--JavaScript for toggle menu-->
+<script>
+
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>
